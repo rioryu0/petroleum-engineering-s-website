@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0c1220;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    background-color: #18203f;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #1b294a;
+    border-radius: 20px 20px 0 0;
+}
+
+.profile-btn, .upgrade-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-btn {
+    gap: 10px;
+}
+
+.upgrade-btn{
+    color:#815ff5;
+    font-size: 16px;
+}
+
+.balance-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-balance {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.small-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.coin-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.coin-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.claim-section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.claim-button {
+    padding: 12px 30px;
+    background-color: #4a9eff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.claim-button:hover{
+    background-color: #377ccc;
+}
+
+.navbar {
+    width: 100px;
+    background-color: black;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 20px 20px;
+}
+
+.nav-item {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-item i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.nav-item:hover {
+    color: #4a9eff;
+}

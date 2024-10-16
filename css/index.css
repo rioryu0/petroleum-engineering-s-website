@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 350px;
+    width: 500px;
     background-color: #18203f;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -29,15 +29,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: #1b294a;
-    border-radius: 20px 20px 0 0;
+    background: none;
 }
 
 .profile-btn, .upgrade-btn {
     display: flex;
     align-items: center;
     border: none;
-    background: none;
     cursor: pointer;
     color: white;
     font-size: 14px;
@@ -45,11 +43,12 @@ body {
 }
 
 .profile-btn {
-    gap: 10px;
+    gap: 25px;
+    background: none;
 }
 
 .upgrade-btn{
-    color:#815ff5;
+    color:#1b18b8;
     font-size: 16px;
 }
 
@@ -80,8 +79,8 @@ body {
 }
 
 .coin-image {
-    width: 120px;
-    height: 120px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -108,12 +107,12 @@ body {
 }
 
 .navbar {
-    width: 100px;
+    width: 5000px;
     background-color: black;
     padding: 15px 0;
     display: flex;
     justify-content: space-around;
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .nav-item {

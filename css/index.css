@@ -132,3 +132,8 @@ body {
 .nav-item:hover {
     color: #4a9eff;
 }
+
+.profile-img {
+    width: 20px;
+    height: 20px;
+}

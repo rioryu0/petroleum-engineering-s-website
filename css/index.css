@@ -53,7 +53,7 @@ body {
 
 .profile-btn {
     gap: 18px;
-    background: rgba(0, 0, 255, 0.25);
+    background: rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     font-size: 12px;
     text-decoration: none;
@@ -66,7 +66,7 @@ body {
 }
 
 .upgrade-btn{
-    background-color: #16036d;
+    background-color: rgba(0, 0, 0, 0.25);
     font-size: 20px;
     border-radius: 20px;
 }
@@ -75,6 +75,7 @@ body {
     display: block;
     font-size: 20px;
     color: rgb(255, 225, 0);
+    border-color: rgb(255, 119, 0);
 }
 
 .balance-section {
@@ -137,6 +138,7 @@ body {
 
 .claim-button:hover{
     background-color: #377ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer {

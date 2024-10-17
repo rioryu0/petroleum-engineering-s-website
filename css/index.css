@@ -6,7 +6,9 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #58B6F3 0%, #000000 100%);
+    background: linear-gradient(to top, black, #58b6f3 50%),
+                linear-gradient(to bottom, black, #58b6f3 50%);
+    background-blend-mode: screen;
     display: flex;
     flex-direction: column;
     justify-content: center;

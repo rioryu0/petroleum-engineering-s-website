@@ -49,20 +49,22 @@ body {
     margin: 0;
 }
 
-.boost-btn {
+.boost-btn-buy {
     padding: 5px 15px;
     border-radius: 10px;
     border: none;
     color: white;
     cursor: pointer;
-}
-
-.bought {
-    background-color: rgba(88, 182, 243, 0.2);
-}
-
-.buy {
     background-color: rgb(88, 182, 243);
+}
+
+.boost-btn-bought {
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(88, 182, 243, 0.2);
 }
 
 .footer {

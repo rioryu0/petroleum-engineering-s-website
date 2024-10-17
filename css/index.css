@@ -63,6 +63,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    padding-right: 5px;
 }
 
 .upgrade-btn{
@@ -76,6 +77,7 @@ body {
     font-size: 20px;
     color: rgb(255, 225, 0);
     border-color: rgb(255, 119, 0);
+    padding-right: 5px;
 }
 
 .balance-section {

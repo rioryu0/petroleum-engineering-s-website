@@ -46,6 +46,10 @@ body {
     padding: 10px 20px;
 }
 
+.btn-text-decoration {
+    text-decoration: none;
+}
+
 .profile-btn {
     gap: 18px;
     background: rgba(0, 0, 255, 0.25);

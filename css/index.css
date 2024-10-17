@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    text-decoration: none;
 }
 
 .container {
@@ -46,10 +47,11 @@ body {
 }
 
 .profile-btn {
-    gap: 25px;
+    gap: 18px;
     background: rgba(0, 0, 255, 0.25);
     border-radius: 10px;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .profile-img {

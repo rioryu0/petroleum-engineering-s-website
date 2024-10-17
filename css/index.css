@@ -152,6 +152,9 @@ body {
     z-index: 100;
     left: 50%;
     transform: translateX(-50%);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
 }
 
 .navbar {

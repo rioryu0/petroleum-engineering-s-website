@@ -38,18 +38,33 @@ body {
     border: none;
     cursor: pointer;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .profile-btn {
     gap: 25px;
-    background: none;
+    background: rgba(0, 0, 0, 0.677);
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 .upgrade-btn{
-    color:#1b18b8;
-    font-size: 16px;
+    background-color: #16036d;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.upgrade-btn i {
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 225, 0);
 }
 
 .balance-section {
@@ -68,8 +83,8 @@ body {
 }
 
 .small-icon {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 
 .coin-container {
@@ -100,6 +115,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 450px;
 }
 
 .claim-button:hover{
@@ -107,16 +123,17 @@ body {
 }
 
 .navbar {
-    width: 5000px;
+    width: 500px;
     background-color: black;
     padding: 15px 0;
     display: flex;
     justify-content: space-around;
-    border-radius: 20px 20px 0 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .nav-item {
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     text-align: center;
@@ -130,9 +147,4 @@ body {
 
 .nav-item:hover {
     color: #4a9eff;
-}
-
-.profile-img {
-    width: 20px;
-    height: 20px;
 }

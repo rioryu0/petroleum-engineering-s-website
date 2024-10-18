@@ -38,7 +38,7 @@ h1 {
     color: white;
 }
 
-.tasks-container {
+.task-container {
     width: 90%;
     max-width: 600px;
 }
@@ -67,7 +67,7 @@ h3 {
     border-color: #58b6f3;
 }
 
-.tasks-icon {
+.task-icon {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -75,11 +75,11 @@ h3 {
     border: 2px solid #58b6f3;
 }
 
-.tasks-content {
+.task-content {
     flex: 1;
 }
 
-.tasks-content p {
+.task-content p {
     font-size: 14px;
     color: white;
     margin-bottom: 10px;
@@ -94,13 +94,13 @@ h3 {
     display: inline-block;
 }
 
-.tasks-actions {
+.task-actions {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.tasks-btn {
+.task-btn {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
@@ -109,16 +109,16 @@ h3 {
     margin: 3px 0;
 }
 
-.tasks-btn.task {
+.task-btn-task {
     background-color: #58b6f3;
 }
 
-.tasks-btn.verify {
+.task-btn-verify {
     background-color: rgba(0, 0, 0, 0.3);
     color: #58b6f3;
 }
 
-.tasks-btn.play {
+.task-btn-play {
     background-color: #58b6f3;
 }
 

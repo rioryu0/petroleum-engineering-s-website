@@ -38,6 +38,7 @@ body {
 .boost-text {
     display: flex;
     flex-direction: column;
+    padding-right: 40px;
 }
 
 .boost-item {
@@ -54,6 +55,11 @@ body {
 
 .boost-speed, .boost-price {
     margin: 0;
+    font-size: 18px;
+}
+
+.boost-speed {
+    font-weight: bold;
 }
 
 .boost-btn-buy {
@@ -63,9 +69,13 @@ body {
     color: white;
     cursor: pointer;
     background-color: rgb(88, 182, 243);
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .boost-btn-bought {
+    font-weight: bold;
+    font-size: 16px;
     padding: 5px 15px;
     border-radius: 10px;
     border: none;

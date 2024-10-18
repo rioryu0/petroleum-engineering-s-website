@@ -22,9 +22,9 @@ body {
 }
 
 .coin-image{
-    width: 180px;
-    height: 200px;
-    margin-bottom: 20px;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
 }
 
 .header-p {
-    font-size: 14px;
+    font-size: 16px;
     color: white;
 }
 
@@ -47,6 +47,7 @@ h3 {
     font-size: 18px;
     color: white;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .container {
@@ -111,15 +112,32 @@ h3 {
 
 .task-btn-task {
     background-color: #58b6f3;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 3px 0;
 }
 
 .task-btn-verify {
     background-color: rgba(0, 0, 0, 0.3);
     color: #58b6f3;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px 0;
 }
 
 .task-btn-play {
     background-color: #58b6f3;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 3px 0;
 }
 
 .footer {

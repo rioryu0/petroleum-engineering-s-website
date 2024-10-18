@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS';
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -17,8 +21,13 @@ body {
 
 .header {
     text-align: center;
-    background: none;
+    background: rgba(0, 0, 0, 0.3);
     padding: 20px;
+    position: relative;
+    border: 1px solid #58b6f3;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 10px;
 }
 
 .coin-image{
@@ -31,6 +40,7 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: rgb(11, 11, 11);
 }
 
 .header-p {
@@ -117,7 +127,7 @@ h3 {
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    margin: 3px 0;
+    margin: 5px 10px;
 }
 
 .task-btn-verify {
@@ -127,7 +137,7 @@ h3 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 3px 0;
+    margin: 5px 10px;
 }
 
 .task-btn-play {
@@ -137,13 +147,14 @@ h3 {
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    margin: 3px 0;
+    margin: 10px 10px;
 }
 
 .task-completed {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 80px;
     margin-top: 20px;
+    color: #58b6f3;
 }
 
 .footer {

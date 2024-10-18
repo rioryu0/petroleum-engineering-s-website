@@ -140,6 +140,12 @@ h3 {
     margin: 3px 0;
 }
 
+.task-completed {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
 .footer {
     width: 100%;
     max-width: 600px;
@@ -152,9 +158,10 @@ h3 {
 }
 
 .navbar {
-    width: 450px;
+    width: 100%;
+    max-width: 600px;
     background-color: black;
-    padding: 15px 5px;
+    padding: 15px 10px;
     display: flex;
     justify-content: space-around;
     border-top-left-radius: 20px;

@@ -10,12 +10,13 @@ a {
 }
 
 body {
-    background: linear-gradient(to bottom, #58b6f3 0%, black 50%, #58b6f3 100%);
+    background: linear-gradient(to bottom, #58b6f3 0%, rgb(11, 11, 11) 50%, #58b6f3 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    height: 100vh;
     font-family: 'Comic Sans MS';
 }
 
@@ -31,7 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .top-section {

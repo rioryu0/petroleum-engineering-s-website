@@ -69,6 +69,7 @@ body {
     font-size: 16px;
     color: #58b6f3;
     -webkit-text-stroke: 1px black;
+    font-weight: bolder;
 }
 
 .boost-speed {

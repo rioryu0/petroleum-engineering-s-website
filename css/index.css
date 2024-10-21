@@ -30,6 +30,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    height: 95%;
     align-items: center;
     margin-top: 15px;
     margin-bottom: 40px;
@@ -156,6 +157,7 @@ body {
     transition: background-color 0.3s ease;
     width: 350px;
     -webkit-text-stroke: 1px black;
+    margin-top: 25px;
 }
 
 .claim-button:hover{

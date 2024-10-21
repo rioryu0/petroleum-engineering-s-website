@@ -188,6 +188,17 @@ h1 {
 
 .user:nth-child(n+4) .trophy{
     display: none;
+    margin-right: 5px;
+}
+
+.user:nth-child(n+10) .trophy {
+    display: none;
+    margin-right: -5px;
+}
+
+.user:nth-child(100) .trophy {
+    display: none;
+    margin-right: -10px;
 }
 
 .profile-icon {
